@@ -1,0 +1,207 @@
+/* Style Général */
+body {
+    width: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rose{
+    color: #e57373;
+}
+
+.logo-texte{
+    font-size: 2.5em;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+
+
+h2{
+    font-size: 2.4em; 
+    font-weight: bold; 
+    text-align: center; 
+    margin: 20px 0;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+hr{    
+    width: 80%;
+    border : 3px solid #e57373;
+    
+}
+
+
+/* Logo */
+.logo-container {
+    display: flex;
+    align-items: center; /* Assure un alignement vertical parfait */
+}
+
+.logo-image {
+    width: 65px;
+    height: 65px;
+    margin-bottom: 15px;
+    border-radius: 50%; /* Pour arrondir le logo */
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.bouton {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #e67c85;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+/* annimation au survolement d'un bouton */
+.bouton:hover {  
+    background-color: #d54c54;
+    transition: background-color 0.3s;
+}
+
+/* Navbar */
+.navbar {
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 5%;
+    background-color: #f4f4f4 ;
+    border-bottom: 1px solid #ddd;
+    top: 0px;
+    position: sticky; /* barre de navigation reste constamment afficher */
+    
+}
+
+
+.nav-liens {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-liens li {
+    margin: 0 1em;
+}
+
+
+
+.nav-liens a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.nav-liens a:hover, .nav-liens a.active {
+    color: #e57373;
+}
+
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #f1f1f1;
+    padding: 2em 5%;
+    font-size: 0.9em;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section À propos */
+.footer-about h3 {
+    font-size: 1.5em;
+    color: #ff4c4c;
+}
+
+.footer-about p {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+/* Section Liens rapides */
+.footer-liens h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #ff4c4c;
+}
+
+.footer-liens ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-liens ul li {
+    margin-bottom: 8px;
+}
+
+.footer-liens ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.footer-liens ul li a.active {
+    color: #e67c85;
+    text-decoration: none;
+}
+
+.footer-liens ul li a:hover {
+    color: #e67c85;
+    transition: color 0.3s;
+}
+
+/* Section Réseaux sociaux */
+.footer-social h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #ff4c4c;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons span:hover{ 
+    color: #e67c85;
+    transition: color 0.3s;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    
+}
+

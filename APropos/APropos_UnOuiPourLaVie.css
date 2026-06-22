@@ -1,0 +1,141 @@
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background-color: #f4f4f4;
+}
+
+.hero video {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    border: 5px solid;
+    border-color: #e57373;
+}
+
+.hero h1{
+    font-size: 2.4em; 
+    font-weight: bold; 
+    text-align: center; 
+    margin: 20px 0;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-color: #e57373;
+}
+
+.intro {
+    font-size: 2em;
+}
+
+.que_faisons_nous{
+    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+
+/* Section Présentation */
+.presentation {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.presentation-image {
+    border-radius: 10px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Section Créateurs */
+.creators {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.creators-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.creator {
+    width: 300px;
+    text-align: center;
+}
+
+.creator img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.creator h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+
+
+/* Section Présentation */
+.presentation {
+    padding: 50px 20px;
+    text-align: justify;
+    background-color: #f4f4f4;
+}
+
+.presentation-image {
+    width: 80%;
+
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+
+.Nous{
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+/* Section Créateurs */
+.creators {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.creators-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6em;
+}
+
+.creator {
+    width: 300px;
+    text-align: center;
+}
+
+.creator img {
+    width: 100%;
+    border-radius: 100px;
+}
+
+.creator h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}

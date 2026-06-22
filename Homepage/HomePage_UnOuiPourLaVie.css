@@ -1,0 +1,343 @@
+/* Section Héro */
+.hero-banniere {
+    background-image: url("images/hero/banière_hero.jpg");
+    background-size: cover; /* Assure que l'image couvre toute la section */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    padding: 5%;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    max-width: 70%;
+
+}
+
+.hero-content{
+    max-width: 90%;
+    text-align: left;
+
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    color: #e67c85;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    color: white;
+}
+
+.hero-image img {
+    display: flex;
+    /* filter: grayscale(); */ 
+    max-width: 50%;
+    height: auto;
+    border-radius: 25%;
+    
+}
+
+/* Section Services */
+.services {
+    padding: 2%;
+    background-color: #fff;
+}
+
+.services p {
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    gap: 4em;
+    margin-top: 2em;
+    max-width: 90%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    justify-content: space-between;
+    
+}
+
+.service img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+}
+
+.service h3 {
+    margin-top: 1em;
+}
+
+
+
+
+
+
+/* Section Boutique */
+.boutique {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+
+.boutique p {
+    font-size: 16px;
+    color: #666;
+    margin: 10px;
+    
+}
+
+.boutique-categories {
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    gap: 2%;
+    margin-top: 30px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.category {
+    margin: auto;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 80%;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.category h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.category p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+/* Section À propos */
+.apropos {
+    background-color: #fdecec;
+    padding: 10px ;
+}
+
+.apropos-container {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+
+.apropos-image img {
+    max-width: 40em;
+    border-radius: 8px;
+}
+
+
+
+.apropos-content p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+    
+}
+
+.apropos img{
+    width: 100em;
+    height: 35em;
+    margin-top: 1%; 
+}
+
+.apropos-content a.bouton {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* Section Témoignages */
+
+.temoignages {
+    background-color: #fff;
+    padding: 2em 5%;
+    text-align: center;
+}
+
+.temoignages-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.temoignage img{
+    border-radius: 50%;
+    width: 5em;
+}
+
+.temoignage {
+    width: 30%;
+    font-style: italic;
+}
+
+.temoignage h4 {
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+
+/* Section FAQ */
+.faq {
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+/* Masquer les cases à cocher */
+.faq-toggle {
+    display: none;
+}
+
+/* Style des questions */
+.faq-question {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    color: #e67c85;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #e67c85;
+    border-radius: 5px;
+    background-color: white;
+    transition: all 0.4s ease;
+}
+
+.faq-question:hover {
+    background-color: #e67c85;
+    color: white;
+}
+
+/* Réponse masquée par défaut */
+.faq-rep{
+    font-size: 16px;
+    color: #555;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.5s ease;
+}
+
+/* Afficher la réponse si la case est cochée */
+.faq-toggle:checked + .faq-question + .faq-rep {
+    max-height: 200px; /* Ajustez la hauteur si nécessaire */
+    margin-top: 10px;
+}
+
+
+/* Section Blog */
+.blog {
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Colonnes flexibles */
+    gap: 20px; /* Espacement entre les articles */
+    justify-items: center; /* Centre les articles dans la grille */
+    margin:5%;
+}
+
+.blog-post {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto; /* Structure : image, titre, texte, bouton */
+    max-width: 70%;
+    text-align: left;
+    background-color: #f4f4f4; /* ou #fdecec / #f4f4f4 */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.blog-post h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.blog-post p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.blog-post .bouton {
+    align-self: end; /* Place le bouton en bas de l'article */
+    margin-top: 10px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #e67c85; /* Couleur personnalisée */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.blog-post .bouton:hover {
+    background-color: #ff4c4c; /* Couleur de survol */
+}
+
+
+#anglais {
+    display: flex;
+    height: 30px;
+}
+
+#francais {
+    display: flex;
+    height: 40px;
+    
+}

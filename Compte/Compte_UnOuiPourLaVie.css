@@ -1,0 +1,90 @@
+
+.contact-page {
+    display: flex;
+    flex-direction: row-reverse; /*  je me suis trompé au début dans les gauches / droites */
+    height: 100vh;
+    width: 100%;
+}
+
+.droite{
+    background-image: url("images/Compte_imgfond.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 2rem;
+}
+
+
+.droite h1{
+    color: #e57373;
+    font-size: 3em;
+    opacity: 100%;
+}
+
+.droite p{
+    font-size: 3em;
+    color: #e57373;
+ 
+}
+
+.block-couleur{
+    background-color: #bbb;  
+    border-radius: 50%;  
+    padding: 10%;
+    opacity: 90%;
+    text-align: center;
+}
+
+
+.droite,
+.gauche {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.gauche {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+}
+
+.gauche h1{
+    text-decoration: underline;
+    text-decoration-color: #e57373;
+}
+
+.gauche form {
+    width: 100%;
+    max-width: 550px;
+}
+
+
+.input-div {
+    margin-bottom: 1.5rem;
+    width: 30em;
+    padding: 2em;
+}
+
+.input {
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background-color: transparent;
+    outline: none;
+    font-size: 1em;
+
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+# Fichiers macOS parasites
+.DS_Store
+._*
+.AppleDouble
+.Spotlight-V100
+.Trashes

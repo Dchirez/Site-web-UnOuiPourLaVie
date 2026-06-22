@@ -1,0 +1,83 @@
+/* Styles pour la page Blog */
+
+/* Bannière du blog */
+.hero-banniere {
+    background-image: url("images/Blog_banniere.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5%;
+    text-align: center;
+    color: white;
+}
+
+.hero-banniere h1 {
+    font-size: 3em;
+    color: #e67c85;
+}
+
+.hero-banniere p {
+    font-size: 1.2em;
+}
+
+/* Conteneur des articles */
+.blog-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    padding: 1em;
+    
+    justify-items: center;
+}
+
+.blog-post {
+    margin-top: 2em;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-post h3 {
+    font-size: 1.5em;
+    margin: 15px;
+    color: #333;
+}
+
+.blog-post p {
+    font-size: 1em;
+    color: #666;
+    margin: 15px;
+    line-height: 1.6;
+}
+
+.blog-post .bouton {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 20px;
+    background-color: #e67c85;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.blog-post .bouton:hover {
+    background-color: #ff4c4c;
+}
+
+
+.more{
+    text-align: center;
+}

@@ -1,0 +1,133 @@
+
+
+h1 {
+    font-size: 5em;
+    color: #e67c85;
+    text-align: center;
+
+}
+
+.button-centre{
+    position: absolute;
+    z-index: 10;
+    bottom: 25%;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+/* Section lieu mariage */
+.hero-lieu {
+    background-image: url("images/Services_chateau.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 5%;
+    text-align: center;
+}
+
+/* Section photographie/ lune de miel */
+
+section#wrapper1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    position: relative;
+}
+
+section#wrapper1 img {
+    width: 100%;
+    height: auto;
+    
+
+}
+
+section article {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+section#wrapper1 article h1 {
+    position: absolute;
+    z-index: 10;
+}
+
+section#wrapper1 article .button {
+    position: absolute;
+    z-index: 10;
+}
+
+/* Section enterrement vie de garçon/fille */
+.hero-accessoires {
+    background-image: url("images/Services_bachelorparty.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 5%;
+    text-align: center;
+}
+
+
+
+
+/* Section traiteur/ forfait */
+
+section#wrapper2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 1%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    position: relative;
+}
+
+section#wrapper2 img {
+    width: 100%;
+    height: auto;
+
+}
+
+section article {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+section#wrapper2 article h1 {
+    position: absolute;
+    z-index: 10;
+}
+
+section#wrapper2 article .button {
+    position: absolute;
+    z-index: 10;
+}
+
+
+/* Section artiste*/
+.hero-decoration {
+    background-image: url("images/Services_groupedemusique.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 4%;
+    text-align: center;
+
+}
